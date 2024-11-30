@@ -1,5 +1,5 @@
 from flask import render_template,url_for,flash,redirect,request,abort
-from AttendanceProject import app,db,mail
+from AttendanceProject import app,db
 from AttendanceProject.models import User,Courses
 from flask_login import login_user,logout_user,current_user,login_required
 from werkzeug.security import generate_password_hash, check_password_hash
