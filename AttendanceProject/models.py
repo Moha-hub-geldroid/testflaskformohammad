@@ -1,6 +1,5 @@
 from AttendanceProject import app,db,login_manager
 from flask_login import UserMixin
-from itsdangerous import URLSafeTimedSerializer as serelizer
 
 @login_manager.user_loader
 def load_user(user_id):
